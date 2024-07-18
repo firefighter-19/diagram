@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-18T15:00:16.461Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="_HlhNnjnoLE4V0OhOwY2" version="24.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-18T15:14:28.914Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="I1C8sUBCo6wVLJNBDTcd" version="24.7.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3758" dy="2809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3392" dy="2604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -23,7 +23,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mHJpHuQM93hfwTMyWl6n-5" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-190" y="200" width="280" height="420" as="geometry" />
+          <mxGeometry x="-200" y="200" width="290" height="500" as="geometry" />
         </mxCell>
         <mxCell id="mHJpHuQM93hfwTMyWl6n-17" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-400" y="-100" width="210" height="210" as="geometry" />
@@ -31,10 +31,10 @@
         <mxCell id="mHJpHuQM93hfwTMyWl6n-18" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;API service&lt;/h1&gt;&lt;div&gt;getPrograms()&lt;/div&gt;&lt;div&gt;createProgram()&lt;br&gt;updateProgram()&lt;/div&gt;&lt;div&gt;deleteProgram()&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-385" y="-90" width="180" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="mHJpHuQM93hfwTMyWl6n-21" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TableService&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;readonly params$ = new BehaviorSubject(initialParams)&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;private configureTable(params: any)() {&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;return this.params$.asObservable().pipe... {}&lt;/span&gt;&lt;/div&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;}&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;*/&lt;/div&gt;&lt;div&gt;POST requests&lt;/div&gt;&lt;div&gt;here we write private methods to work with data before send a request for update form (methods working with filter params&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;br&gt;GET requests&lt;br&gt;we provide maping to suitable data which our frontend app is waiting for to show&lt;/div&gt;&lt;div&gt;*/&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-180" y="210" width="270" height="450" as="geometry" />
+        <mxCell id="mHJpHuQM93hfwTMyWl6n-21" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TableService&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;readonly params$ = new BehaviorSubject(initialParams)&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;private configureTable(params: any)() {&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;return this.params$.asObservable().pipe... {}&lt;/span&gt;&lt;/div&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;}&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;*/&lt;/div&gt;&lt;div&gt;POST requests&lt;/div&gt;&lt;div&gt;here we write private methods to work with data before send a request for update form (methods working with filter params&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;br&gt;GET requests&lt;br&gt;we provide maping to suitable data which our frontend app is waiting for to show&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;UI methods&lt;br&gt;&lt;br&gt;write methods to define rows, columns lengths, etc&lt;/div&gt;&lt;div&gt;*/&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-190" y="210" width="270" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="mHJpHuQM93hfwTMyWl6n-28" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;ProgramList C&lt;/h1&gt;&lt;div&gt;readonly table$ = this.tableService.configureTable(params)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;setFilters(filters: any) {&lt;/div&gt;&lt;div&gt;this.tableService.setFilters = filters;&lt;br&gt;}&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;getFIlters()? {}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="mHJpHuQM93hfwTMyWl6n-28" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;ProgramList C&lt;/h1&gt;&lt;div&gt;readonly table$ = this.tableService.configureTable(params)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;setFilters(filters: any) {&lt;/div&gt;&lt;div&gt;this.tableService.setFilters = filters;&lt;br&gt;}&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;getFIlters()? {}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;uiConfigureMethods() {}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="275" y="-100" width="240" height="390" as="geometry" />
         </mxCell>
         <mxCell id="mHJpHuQM93hfwTMyWl6n-29" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -47,7 +47,28 @@
           <mxGeometry x="740" y="170" width="510" height="310" as="geometry" />
         </mxCell>
         <mxCell id="mHJpHuQM93hfwTMyWl6n-33" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;I/O&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="610" y="130" width="60" height="30" as="geometry" />
+          <mxGeometry x="550" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mHJpHuQM93hfwTMyWl6n-36" value="" style="whiteSpace=wrap;html=1;aspect=fixed;glass=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-820" y="570" width="330" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="mHJpHuQM93hfwTMyWl6n-37" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Helpers methods to work with API&lt;/h1&gt;&lt;div&gt;function mapDataBeforeSend(data: any): any {}&lt;br&gt;function mapDataAfterGet(data: any):any {}&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-810" y="580" width="330" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="mHJpHuQM93hfwTMyWl6n-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.646;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mHJpHuQM93hfwTMyWl6n-36" target="mHJpHuQM93hfwTMyWl6n-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mHJpHuQM93hfwTMyWl6n-39" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-200" y="-750" width="390" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="mHJpHuQM93hfwTMyWl6n-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mHJpHuQM93hfwTMyWl6n-40" target="mHJpHuQM93hfwTMyWl6n-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mHJpHuQM93hfwTMyWl6n-40" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Other components (print buttons, etc)&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-180" y="-740" width="370" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="mHJpHuQM93hfwTMyWl6n-42" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;I/O&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="-650" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
